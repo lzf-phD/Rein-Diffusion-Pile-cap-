@@ -24,13 +24,11 @@ numpy                     1.19.2
 
 # Datasets directory
 data/  
-├── Rein/     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Training dataset   
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── train_A/    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+├── Rein/     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Training set  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── train_B/    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# labels  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── mask/     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# mask maps  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── cond/     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# text conditions  
-└── Test/     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Testing dataset  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── train_A/    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+└── Test/     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Test set  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── train_B/    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# labels  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── mask/     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# mask maps  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── cond/     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# text conditions  
